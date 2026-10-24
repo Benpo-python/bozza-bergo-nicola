@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bergo Nicola — Officina moto, scooter e bici a Maserà di Padova</title>
-<meta name="description" content="Officina Bergo Nicola a Maserà di Padova: tagliandi, revisioni, cambio gomme e riparazioni per moto, scooter, bici ed e-bike. Vendita di moto, maxi-scooter, biciclette, ricambi, accessori e caschi.">
+<title>Bergo Nicola — Concessionario SYM e officina moto a Maserà di Padova</title>
+<meta name="description" content="Bergo Nicola a Maserà di Padova: concessionario ufficiale SYM (vendita, ricambi, assistenza) e officina autorizzata Piaggio, Vespa, Aprilia e Kymco. Tagliandi, revisioni, cambio gomme e riparazioni per moto, scooter, bici ed e-bike. Vendita di moto, maxi-scooter, biciclette, ricambi, accessori e caschi.">
 <meta name="robots" content="noindex">
 <meta name="theme-color" content="#141414">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"MotorcycleRepair","name":"Bergo Nicola Officina Moto","description":"Officina e vendita di moto, scooter, biciclette ed e-bike a Maserà di Padova","telephone":["+39 049 8862220","+39 338 4103110"],"email":"bergonicola86@gmail.com","vatID":"IT04609310281","address":{"@type":"PostalAddress","streetAddress":"Via Conselvana 23","postalCode":"35020","addressLocality":"Maserà di Padova","addressRegion":"PD","addressCountry":"IT"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"15:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:30","closes":"12:30"}]}
+{"@context":"https://schema.org","@type":"MotorcycleRepair","name":"Bergo Nicola Officina Moto","description":"Concessionario ufficiale SYM e officina autorizzata Piaggio, Vespa, Aprilia e Kymco a Maserà di Padova","brand":[{"@type":"Brand","name":"SYM"},{"@type":"Brand","name":"Piaggio"},{"@type":"Brand","name":"Vespa"},{"@type":"Brand","name":"Aprilia"},{"@type":"Brand","name":"Kymco"}],"telephone":["+39 049 8862220","+39 338 4103110"],"email":"bergonicola86@gmail.com","vatID":"IT04609310281","address":{"@type":"PostalAddress","streetAddress":"Via Conselvana 23","postalCode":"35020","addressLocality":"Maserà di Padova","addressRegion":"PD","addressCountry":"IT"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:30","closes":"12:30"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"15:00","closes":"19:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:30","closes":"12:30"}]}
 </script>
 <style>
   @font-face{font-family:"Archivo";src:url("fonts/Archivo-var.woff2") format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
@@ -83,7 +83,7 @@
   .strip div:last-child{border-right:0}
   .strip b{display:block;font-family:var(--t);font-stretch:80%;font-variation-settings:"wdth" 80;font-weight:800;font-size:1.3rem;text-transform:uppercase}
   .strip span{font-size:.88rem;color:#ABA49A}
-  @media(max-width:900px){.hero .wrap.top{grid-template-columns:1fr}.hero-svg{max-width:520px;margin:10px auto 0}.strip{grid-template-columns:1fr 1fr}.strip div:nth-child(2){border-right:0}.strip div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.1)}}
+  @media(max-width:900px){.hero .wrap.top{grid-template-columns:1fr}.hero-foto{max-width:480px;margin:10px auto 0}.strip{grid-template-columns:1fr 1fr}.strip div:nth-child(2){border-right:0}.strip div:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.1)}}
 
   /* marchi */
   .marchi{background:var(--arancio);color:#111;padding:0;overflow:hidden;white-space:nowrap}
@@ -169,6 +169,40 @@
   .mappa span{position:absolute;left:16px;bottom:14px;background:#fff;color:#111;font-weight:700;font-size:.88rem;padding:.5em .85em;border-radius:6px}
   @media(max-width:860px){.contatti .wrap{grid-template-columns:1fr}}
 
+
+  /* SYM */
+  .sym{background:#fff;border-bottom:1px solid var(--linea)}
+  .sym-testa{display:grid;grid-template-columns:auto 1fr;gap:34px;align-items:center}
+  .sym-logo{width:132px;height:132px;flex:none}
+  .sym-tre{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .sym-tre span{display:inline-flex;align-items:center;gap:.5em;background:var(--crema);border:1px solid var(--linea);border-radius:999px;padding:.5em 1em;font-weight:600;font-size:.94rem}
+  .sym-tre span::before{content:"";width:8px;height:8px;background:#E2001A;transform:rotate(45deg)}
+  .modelli{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:48px}
+  .modello{background:linear-gradient(180deg,#F4F1EC,#E9E4DC);border-radius:12px;padding:18px 18px 20px;text-align:center;transition:transform .2s,box-shadow .2s}
+  .modello:hover{transform:translateY(-4px);box-shadow:0 22px 40px -24px rgba(0,0,0,.35)}
+  .modello img{width:100%;height:auto;aspect-ratio:1037/977;object-fit:contain;margin:0 auto 6px}
+  .modello b{display:block;font-family:var(--t);font-stretch:78%;font-variation-settings:"wdth" 78;font-weight:800;font-size:1.25rem;text-transform:uppercase}
+  .modello span{font-size:.9rem;color:var(--grigio)}
+  .sym-cta{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-top:30px;color:var(--grigio);font-size:.95rem}
+  @media(max-width:860px){.modelli{grid-template-columns:1fr 1fr}}
+  @media(max-width:600px){.sym-testa{grid-template-columns:1fr;gap:18px}.sym-logo{width:96px;height:96px}.modelli{gap:12px}.modello{padding:12px 10px 14px}.modello b{font-size:1.05rem}}
+
+  /* autorizzata */
+  .autor{background:var(--grafite);color:#fff;padding:56px 0}
+  .autor .wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:36px;align-items:center}
+  .autor h2{font-size:clamp(1.9rem,4.2vw,2.8rem);margin:0}
+  .autor h2 span{color:var(--arancio)}
+  .marche{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .marche div{border:1px solid rgba(255,255,255,.14);border-radius:8px;padding:18px 8px;text-align:center;font-family:var(--t);font-stretch:76%;font-variation-settings:"wdth" 76;font-weight:900;font-size:1.35rem;text-transform:uppercase;letter-spacing:.02em}
+  .autor p{grid-column:2;color:#B9B2A8;font-size:.98rem;margin-top:-16px}
+  @media(max-width:860px){.autor .wrap{grid-template-columns:1fr;gap:22px}.autor p{grid-column:1;margin-top:0}.marche{grid-template-columns:1fr 1fr}}
+
+  /* hero foto */
+  .hero-foto{position:relative}
+  .hero-foto img{width:100%;height:auto;filter:drop-shadow(0 30px 40px rgba(0,0,0,.5))}
+  .badge-sym{position:absolute;left:0;top:6%;display:flex;align-items:center;gap:10px;background:#fff;color:#111;border-radius:999px;padding:6px 16px 6px 6px;font-weight:700;font-size:.86rem;line-height:1.15;box-shadow:0 14px 30px -12px rgba(0,0,0,.6)}
+  .badge-sym img{width:42px;height:42px;filter:none}
+
   footer{background:#0E0E0E;color:#8C857B;padding:34px 0 110px;font-size:.88rem}
   footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   footer b{color:#E9E4DC}
@@ -183,8 +217,9 @@
 
 <nav>
   <div class="wrap">
-    <a href="#" class="logo"><b>BERGO <span>NICOLA</span></b><i>Centro Service Autorizzato</i></a>
+    <a href="#" class="logo"><b>BERGO <span>NICOLA</span></b><i>Concessionario ufficiale SYM</i></a>
     <ul>
+      <li><a href="#sym">SYM</a></li>
       <li><a href="#servizi">Servizi</a></li>
       <li><a href="#vendita">Vendita</a></li>
       <li><a href="#recensioni">Recensioni</a></li>
@@ -200,8 +235,8 @@
   <div class="wrap top">
     <div>
       <div class="stato" id="stato"><span class="pallino"></span><span id="stato-testo">Lun–Ven 8:30–12:30 · 15–19</span></div>
-      <h1>Moto, scooter e bici <em>tornano in strada.</em></h1>
-      <p class="lead">Officina a Maserà di Padova per tagliandi, revisioni, gomme e riparazioni di moto, scooter, bici ed e-bike. In negozio trovi anche moto, maxi-scooter, biciclette, ricambi e caschi.</p>
+      <h1>Il tuo scooter <em>in buone mani.</em></h1>
+      <p class="lead">A Maserà di Padova siamo <b style="color:#fff">concessionario ufficiale SYM</b> per vendita, ricambi e assistenza, e <b style="color:#fff">officina autorizzata Piaggio, Vespa, Aprilia e Kymco</b>. Facciamo tagliandi e riparazioni su scooter di ogni marca, e ci occupiamo anche di moto, bici ed e-bike.</p>
       <div class="hero-btns">
         <a href="tel:+390498862220" class="btn btn-arancio">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
@@ -211,68 +246,15 @@
           WhatsApp</a>
       </div>
     </div>
-    <div class="hero-svg" aria-hidden="true">
-      <svg viewBox="20 40 540 330">
-        <defs>
-          <linearGradient id="carena" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF8044"/><stop offset=".55" stop-color="#FF5B14"/><stop offset="1" stop-color="#D9440A"/></linearGradient>
-          <linearGradient id="riflesso" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-          <radialGradient id="faro"><stop offset="0" stop-color="#FFFBE6"/><stop offset="1" stop-color="#FFD66B"/></radialGradient>
-        </defs>
-        <ellipse cx="300" cy="352" rx="228" ry="12" fill="#000" opacity=".5"/>
-        <g class="linee" stroke="#FF5B14" stroke-width="7" stroke-linecap="round">
-          <line x1="30" y1="214" x2="92" y2="214"/>
-          <line x1="48" y1="248" x2="112" y2="248"/>
-          <line x1="22" y1="282" x2="80" y2="282"/>
-        </g>
-        <!-- ruota posteriore -->
-        <g class="ruota">
-          <circle cx="170" cy="296" r="56" fill="#0B0B0B"/>
-          <circle cx="170" cy="296" r="41" fill="none" stroke="#3A3936" stroke-width="3"/>
-          <circle cx="170" cy="296" r="33" fill="#2A2927"/>
-          <g stroke="#9A948B" stroke-width="5" stroke-linecap="round"><line x1="170" y1="270" x2="170" y2="322"/><line x1="144" y1="296" x2="196" y2="296"/><line x1="152" y1="278" x2="188" y2="314"/><line x1="152" y1="314" x2="188" y2="278"/></g>
-          <circle cx="170" cy="296" r="10" fill="#D8D2C9"/>
-        </g>
-        <!-- ruota anteriore -->
-        <g class="ruota">
-          <circle cx="448" cy="296" r="56" fill="#0B0B0B"/>
-          <circle cx="448" cy="296" r="41" fill="none" stroke="#3A3936" stroke-width="3"/>
-          <circle cx="448" cy="296" r="33" fill="#2A2927"/>
-          <g stroke="#9A948B" stroke-width="5" stroke-linecap="round"><line x1="448" y1="270" x2="448" y2="322"/><line x1="422" y1="296" x2="474" y2="296"/><line x1="430" y1="278" x2="466" y2="314"/><line x1="430" y1="314" x2="466" y2="278"/></g>
-          <circle cx="448" cy="296" r="10" fill="#D8D2C9"/>
-        </g>
-        <!-- forcella -->
-        <path d="M438 128 L452 296" stroke="#2C2B29" stroke-width="13" stroke-linecap="round"/>
-        <!-- parafango anteriore -->
-        <path d="M388 280 C390 238 416 218 448 218 C480 218 506 238 508 280 L492 280 C490 250 472 234 448 234 C424 234 406 250 404 280 Z" fill="url(#carena)"/>
-        <!-- scocca posteriore (bombata) -->
-        <path d="M92 272 C72 232 94 186 156 176 C210 168 290 168 334 180 C356 186 360 208 350 228 L334 262 C328 276 316 282 300 282 L116 282 C104 282 96 278 92 272 Z" fill="url(#carena)"/>
-        <path d="M112 222 C126 198 160 186 214 184 L318 188" stroke="url(#riflesso)" stroke-width="9" fill="none" stroke-linecap="round"/>
-        <path d="M140 250 C180 262 260 262 312 250" stroke="#C23B07" stroke-width="3" fill="none" stroke-linecap="round" opacity=".7"/>
-        <!-- fanale posteriore -->
-        <rect x="84" y="226" width="13" height="24" rx="5" fill="#FF2D2D"/>
-        <!-- pedana -->
-        <path d="M300 266 L408 266 C415 266 417 271 415 277 L411 286 L302 286 Z" fill="#2C2B29"/>
-        <!-- scudo -->
-        <path d="M382 284 L410 284 C430 240 440 188 452 134 L430 128 C418 186 402 238 382 284 Z" fill="url(#carena)"/>
-        <path d="M432 138 C424 186 412 228 398 266" stroke="url(#riflesso)" stroke-width="5" fill="none" stroke-linecap="round"/>
-        <!-- sella -->
-        <path d="M150 180 C146 150 312 144 326 176 C314 186 162 188 150 180 Z" fill="#4A4642" stroke="#0E0E0E" stroke-width="3"/>
-        <path d="M176 164 C214 154 280 154 306 164" stroke="#6E6862" stroke-width="3" fill="none" stroke-linecap="round"/>
-        <!-- portapacchi -->
-        <path d="M110 186 L150 182" stroke="#2C2B29" stroke-width="6" stroke-linecap="round"/>
-        <!-- manubrio -->
-        <path d="M400 112 L486 104" stroke="#1A1918" stroke-width="11" stroke-linecap="round"/>
-        <rect x="420" y="100" width="50" height="30" rx="14" fill="url(#carena)"/>
-        <circle cx="478" cy="118" r="17" fill="url(#faro)" stroke="#1A1918" stroke-width="5"/>
-        <path d="M410 108 L394 72" stroke="#1A1918" stroke-width="4" stroke-linecap="round"/>
-        <ellipse cx="390" cy="66" rx="13" ry="8" fill="#1A1918"/>
-      </svg>
+    <div class="hero-foto">
+      <img src="img/sym-adx-125.webp" alt="Scooter SYM ADX 125" width="640" height="603">
+      <div class="badge-sym"><img src="img/sym-logo.webp" alt="Logo SYM" width="42" height="42"><span>Concessionario<br>ufficiale SYM</span></div>
     </div>
   </div>
   <div class="wrap">
     <div class="strip">
-      <div><b>Moto e scooter</b><span>tagliandi, revisioni e gomme</span></div>
-      <div><b>Bici ed e-bike</b><span>riparazione e vendita</span></div>
+      <div><b>Concessionario SYM</b><span>vendita, ricambi, assistenza</span></div>
+      <div><b>Officina autorizzata</b><span>Piaggio, Vespa, Aprilia, Kymco</span></div>
       <div><b>Ricambi e caschi</b><span>accessori originali</span></div>
       <div><b>Maserà di Padova</b><span>Via Conselvana 23</span></div>
     </div>
@@ -281,10 +263,47 @@
 
 <div class="marchi" aria-label="Marchi trattati">
   <div class="nastro">
-    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Ape</span><span>Moto</span><span>Scooter</span><span>E-bike</span><span>Biciclette</span>
-    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Ape</span><span>Moto</span><span>Scooter</span><span>E-bike</span><span>Biciclette</span>
+    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>E-bike</span>
+    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>E-bike</span>
   </div>
 </div>
+
+
+<section class="sym" id="sym">
+  <div class="wrap">
+    <div class="sym-testa">
+      <img class="sym-logo" src="img/sym-logo.webp" alt="Logo SYM" width="270" height="270">
+      <div>
+        <p class="eyebrow">Concessionario ufficiale</p>
+        <h2>Scooter SYM:<br>li vendiamo e li curiamo noi</h2>
+        <p class="sub">Siamo concessionario ufficiale SYM. Da noi trovi gli scooter nuovi della gamma, i ricambi originali e l'officina per riparazioni e manutenzione: tutto nello stesso posto, anche dopo l'acquisto.</p>
+        <div class="sym-tre"><span>Vendita veicoli</span><span>Ricambi originali</span><span>Riparazione e manutenzione</span></div>
+      </div>
+    </div>
+    <div class="modelli">
+      <div class="modello"><img src="img/sym-symphony-125.webp" alt="SYM Symphony 125" loading="lazy" width="640" height="603"><b>Symphony 125</b><span>ruota alta, per la città</span></div>
+      <div class="modello"><img src="img/sym-fiddle.webp" alt="SYM Fiddle" loading="lazy" width="640" height="603"><b>Fiddle</b><span>stile classico</span></div>
+      <div class="modello"><img src="img/sym-jet14-evo.webp" alt="SYM Jet 14 Evo 125" loading="lazy" width="640" height="603"><b>Jet 14 Evo</b><span>sportivo, 125 e 200</span></div>
+      <div class="modello"><img src="img/sym-joymax-z-300.webp" alt="SYM Joymax Z 300" loading="lazy" width="640" height="603"><b>Joymax Z 300</b><span>gran turismo</span></div>
+      <div class="modello"><img src="img/sym-adx-125.webp" alt="SYM ADX 125" loading="lazy" width="640" height="603"><b>ADX 125</b><span>adventure scooter</span></div>
+      <div class="modello"><img src="img/sym-maxsym-tl-508.webp" alt="SYM Maxsym TL 508" loading="lazy" width="640" height="603"><b>Maxsym TL 508</b><span>maxi-scooter</span></div>
+    </div>
+    <div class="sym-cta">
+      <a href="https://wa.me/393384103110?text=Buongiorno%2C%20vorrei%20informazioni%20su%20uno%20scooter%20SYM" class="btn btn-wa">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 2.9 2.9 0 0 0-.9 2.2 5 5 0 0 0 1.1 2.7 11.5 11.5 0 0 0 4.4 3.9c1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.7-.3z"/></svg>
+        Chiedi disponibilità e prezzo</a>
+      <span>Alcuni modelli della gamma: vieni a vederli in negozio.</span>
+    </div>
+  </div>
+</section>
+
+<section class="autor">
+  <div class="wrap">
+    <h2>Officina <span>autorizzata</span></h2>
+    <div class="marche"><div>Piaggio</div><div>Vespa</div><div>Aprilia</div><div>Kymco</div></div>
+    <p>Tagliandi in garanzia, ricambi e riparazioni secondo le indicazioni della casa. E facciamo tagliandi e riparazioni anche su scooter multimarca.</p>
+  </div>
+</section>
 
 <section class="servizi" id="servizi">
   <div class="wrap">
@@ -336,8 +355,8 @@
         <div class="num">01</div>
         <h3>Moto e <span>scooter</span></h3>
         <ul>
-          <li>Moto e maxi-scooter nuovi</li>
-          <li>Marchi SYM, Piaggio, Vespa e Ape</li>
+          <li>Scooter e maxi-scooter SYM nuovi</li>
+          <li>Ricambi originali SYM</li>
           <li>Accessori originali per personalizzare il tuo mezzo</li>
           <li>Caschi per la massima protezione</li>
         </ul>
@@ -402,7 +421,7 @@
   <div class="wrap faq">
     <p class="eyebrow">Domande frequenti</p>
     <h2>Prima di passare</h2>
-    <details><summary>Riparate moto e scooter di tutte le marche?</summary><p>Sì, lavoriamo su moto e scooter di ogni genere. Siamo anche un riferimento per SYM, Piaggio, Vespa e Ape.</p></details>
+    <details><summary>Riparate moto e scooter di tutte le marche?</summary><p>Sì. Siamo concessionario ufficiale SYM e officina autorizzata Piaggio, Vespa, Aprilia e Kymco, e facciamo tagliandi e riparazioni anche su scooter multimarca.</p></details>
     <details><summary>Fate assistenza anche sulle e-bike?</summary><p>Sì, ripariamo sia le biciclette tradizionali sia quelle elettriche, e in negozio trovi anche e-bike nuove.</p></details>
     <details><summary>Serve l'appuntamento per un tagliando?</summary><p>Per tagliandi, revisioni e cambio gomme conviene chiamare o scrivere su WhatsApp prima di passare, così organizziamo il lavoro e ti diciamo i tempi.</p></details>
     <details><summary>Vendete ricambi e caschi?</summary><p>Sì, in negozio trovi ricambi, componenti, accessori originali e una selezione di caschi.</p></details>
@@ -457,7 +476,7 @@
 <footer>
   <div class="wrap">
     <div><b>Bergo Nicola Officina Moto</b><br>Via Conselvana 23, 35020 Maserà di Padova (PD)<br>P. IVA 04609310281</div>
-    <div>Officina e vendita moto, scooter, bici ed e-bike</div>
+    <div>Concessionario ufficiale SYM · Officina autorizzata Piaggio, Vespa, Aprilia, Kymco</div>
   </div>
 </footer>
 
