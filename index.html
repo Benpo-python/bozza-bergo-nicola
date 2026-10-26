@@ -187,6 +187,21 @@
   @media(max-width:860px){.modelli{grid-template-columns:1fr 1fr}}
   @media(max-width:600px){.sym-testa{grid-template-columns:1fr;gap:18px}.sym-logo{width:96px;height:96px}.modelli{gap:12px}.modello{padding:12px 10px 14px}.modello b{font-size:1.05rem}}
 
+
+  /* bici */
+  .bici-gruppo{margin-top:40px}
+  .bici-gruppo h3{font-size:1.5rem;margin-bottom:16px;display:flex;align-items:center;gap:12px}
+  .bici-gruppo h3::after{content:"";flex:1;height:2px;background:var(--linea)}
+  .bici-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .bici-grid.tre{grid-template-columns:repeat(3,1fr)}
+  .bici-grid figure{background:#fff;border:1px solid var(--linea);border-radius:12px;overflow:hidden;transition:transform .2s,box-shadow .2s}
+  .bici-grid figure:hover{transform:translateY(-4px);box-shadow:0 22px 40px -24px rgba(0,0,0,.35)}
+  .bici-grid img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+  .bici-grid figcaption{padding:12px 14px;font-weight:600;font-size:.95rem}
+  .marchi-bici{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .marchi-bici span{border:2px solid var(--asfalto);border-radius:6px;padding:.35em .9em;font-family:var(--t);font-stretch:78%;font-variation-settings:"wdth" 78;font-weight:900;text-transform:uppercase;letter-spacing:.04em}
+  @media(max-width:900px){.bici-grid,.bici-grid.tre{grid-template-columns:1fr 1fr}}
+
   /* autorizzata */
   .autor{background:var(--grafite);color:#fff;padding:56px 0}
   .autor .wrap{display:grid;grid-template-columns:1fr 1.3fr;gap:36px;align-items:center}
@@ -223,6 +238,7 @@
       <li><a href="#sym">SYM</a></li>
       <li><a href="#servizi">Servizi</a></li>
       <li><a href="#vendita">Vendita</a></li>
+      <li><a href="#bici">Bici</a></li>
       <li><a href="#recensioni">Recensioni</a></li>
       <li><a href="#contatti">Orari e contatti</a></li>
     </ul>
@@ -264,8 +280,8 @@
 
 <div class="marchi" aria-label="Marchi trattati">
   <div class="nastro">
-    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>E-bike</span>
-    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>E-bike</span>
+    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>Bici</span>
+    <span>SYM</span><span>Piaggio</span><span>Vespa</span><span>Aprilia</span><span>Kymco</span><span>Multimarca</span><span>Moto</span><span>Bici</span>
   </div>
 </div>
 
@@ -278,7 +294,7 @@
         <p class="eyebrow">Concessionario ufficiale</p>
         <h2>Scooter SYM:<br>li vendiamo e li curiamo noi</h2>
         <p class="sub">Siamo concessionario ufficiale SYM. Da noi trovi gli scooter nuovi della gamma, i ricambi originali e l'officina per riparazioni e manutenzione: tutto nello stesso posto, anche dopo l'acquisto.</p>
-        <div class="sym-tre"><span>Vendita veicoli</span><span>Ricambi originali</span><span>Riparazione e manutenzione</span></div>
+        <div class="sym-tre"><span>Vendita veicoli</span><span>Ricambi originali</span><span>Riparazione e manutenzione</span><span>Pagamento rateale con finanziamento</span></div>
       </div>
     </div>
     <div class="modelli">
@@ -357,6 +373,7 @@
         <h3>Moto e <span>scooter</span></h3>
         <ul>
           <li>Scooter e maxi-scooter SYM nuovi</li>
+          <li>Pagamenti rateali tramite finanziamento</li>
           <li>Ricambi originali SYM</li>
           <li>Accessori originali per personalizzare il tuo mezzo</li>
           <li>Caschi per la massima protezione</li>
@@ -364,10 +381,10 @@
       </div>
       <div class="mondo">
         <div class="num">02</div>
-        <h3>Bici ed <span>e-bike</span></h3>
+        <h3>Bici per <span>tutti</span></h3>
         <ul>
-          <li>Biciclette tradizionali per tutti i giorni</li>
-          <li>E-bike per la città e per le lunghe passeggiate</li>
+          <li>Bici per bambini, ragazzi e adulti</li>
+          <li>Marchi Casadei e SMP</li>
           <li>Accessori e componenti per biciclette</li>
           <li>Assistenza anche dopo l'acquisto</li>
         </ul>
@@ -375,6 +392,37 @@
     </div>
   </div>
 </section>
+
+<section class="bici" id="bici">
+  <div class="wrap">
+    <p class="eyebrow">Biciclette</p>
+    <h2>Bici per grandi e piccoli</h2>
+    <p class="sub">In negozio trovi bici nuove per bambini, ragazzi e adulti, e l'officina per sistemarle quando serve. Vieni a provarle o chiedi su WhatsApp cosa c'è disponibile.</p>
+    <div class="marchi-bici"><span>Casadei</span><span>SMP</span></div>
+    <div class="bici-gruppo">
+      <h3>Bambini e ragazzi</h3>
+      <div class="bici-grid">
+        <figure><img src="img/bici-bimba-lilla.webp" alt="Bici da bambina lilla con cestino" loading="lazy" width="1000" height="750"><figcaption>Bici da bambina</figcaption></figure>
+        <figure><img src="img/bici-mtb-ragazzo.webp" alt="Mountain bike da ragazzo blu e gialla" loading="lazy" width="1000" height="750"><figcaption>Mountain bike ragazzo</figcaption></figure>
+        <figure><img src="img/bici-ragazza-smp.webp" alt="Bici SMP da ragazza bordeaux con cestino" loading="lazy" width="1000" height="750"><figcaption>City bike ragazza</figcaption></figure>
+        <figure><img src="img/bici-pieghevole-nera.webp" alt="Bici nera con portapacchi" loading="lazy" width="1000" height="750"><figcaption>Bici con portapacchi</figcaption></figure>
+      </div>
+    </div>
+    <div class="bici-gruppo">
+      <h3>Adulti</h3>
+      <div class="bici-grid tre">
+        <figure><img src="img/bici-city-donna-nera.webp" alt="City bike da donna nera con cestino" loading="lazy" width="1000" height="750"><figcaption>City bike donna</figcaption></figure>
+        <figure><img src="img/bici-city-crema.webp" alt="Bici da città color crema con cestino" loading="lazy" width="1000" height="750"><figcaption>Bici da città vintage</figcaption></figure>
+        <figure><img src="img/bici-mtb-smp-arancio.webp" alt="Mountain bike SMP arancione" loading="lazy" width="1000" height="750"><figcaption>Mountain bike SMP</figcaption></figure>
+      </div>
+    </div>
+    <div class="sym-cta">
+      <a href="https://wa.me/393384103110?text=Buongiorno%2C%20vorrei%20informazioni%20su%20una%20bici" class="btn btn-wa">Chiedi disponibilità e prezzo</a>
+      <span>Le bici disponibili cambiano spesso: scrivici per sapere cosa c'è in negozio.</span>
+    </div>
+  </div>
+</section>
+
 
 <section>
   <div class="wrap">
@@ -423,7 +471,7 @@
     <p class="eyebrow">Domande frequenti</p>
     <h2>Prima di passare</h2>
     <details><summary>Riparate moto e scooter di tutte le marche?</summary><p>Sì. Siamo concessionario ufficiale SYM e officina autorizzata Piaggio, Vespa, Aprilia e Kymco, e facciamo tagliandi e riparazioni anche su scooter multimarca.</p></details>
-    <details><summary>Fate assistenza anche sulle e-bike?</summary><p>Sì, ripariamo sia le biciclette tradizionali sia quelle elettriche, e in negozio trovi anche e-bike nuove.</p></details>
+    <details><summary>Fate assistenza anche sulle e-bike?</summary><p>Sì, ripariamo sia le biciclette tradizionali sia quelle elettriche. In negozio trovi bici nuove per bambini, ragazzi e adulti.</p></details>
     <details><summary>Serve l'appuntamento per un tagliando?</summary><p>Per tagliandi, revisioni e cambio gomme conviene chiamare o scrivere su WhatsApp prima di passare, così organizziamo il lavoro e ti diciamo i tempi.</p></details>
     <details><summary>Vendete ricambi e caschi?</summary><p>Sì, in negozio trovi ricambi, componenti, accessori originali e una selezione di caschi.</p></details>
     <details><summary>Dove vi trovo e quando siete aperti?</summary><p>In Via Conselvana 23 a Maserà di Padova. Dal lunedì al venerdì 8:30–12:30 e 15:00–19:00, il sabato 8:30–12:30. Domenica chiuso.</p></details>
